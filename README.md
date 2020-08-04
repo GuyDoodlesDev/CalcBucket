@@ -1,5 +1,5 @@
 # CalcBucket
-Steam-Like Game Manager for graphing calculators
+The layman's calculator game-manager.
 
 # Very WIP!
 
