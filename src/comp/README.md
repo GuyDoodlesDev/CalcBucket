@@ -1,1 +1,0 @@
-# the compter side of things
