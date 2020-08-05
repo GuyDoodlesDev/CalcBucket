@@ -2,7 +2,7 @@
   "name": "calcbucket",
   "productName": "calcbucket",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "calculator program manager like steam",
   "main": "src/start.js",
   "scripts": {
     "start": "electron-forge start",
