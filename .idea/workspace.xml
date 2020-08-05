@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4c4d0aa-e47e-4fa3-a461-24ac71c729ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CalcBucket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/files.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/parse.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/dwnl.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/parse.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,7 +54,6 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/src" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -75,7 +72,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596649169510</updated>
-      <workItem from="1596649170593" duration="1877000" />
+      <workItem from="1596649170593" duration="2259000" />
+      <workItem from="1596651467032" duration="2889000" />
     </task>
     <servers />
   </component>
@@ -92,23 +90,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="936" height="281" key="GridCell.Tab.0.bottom" timestamp="1596650554700">
+    <state x="1170" y="10" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596651538719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596650554700" />
-    <state width="936" height="281" key="GridCell.Tab.0.center" timestamp="1596650554700">
+    <state x="1170" y="10" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596651538719" />
+    <state width="936" height="281" key="GridCell.Tab.0.bottom" timestamp="1596651446806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596650554700" />
-    <state width="936" height="281" key="GridCell.Tab.0.left" timestamp="1596650554700">
+    <state width="936" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596651446806" />
+    <state width="936" height="281" key="GridCell.Tab.0.center" timestamp="1596651446806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596650554700" />
-    <state width="936" height="281" key="GridCell.Tab.0.right" timestamp="1596650554700">
+    <state width="936" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596651446806" />
+    <state width="936" height="281" key="GridCell.Tab.0.left" timestamp="1596651446806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596650554700" />
+    <state width="936" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596651446806" />
+    <state width="936" height="281" key="GridCell.Tab.0.right" timestamp="1596651446806">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596651446806" />
   </component>
 </project>
