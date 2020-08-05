@@ -1,0 +1,1 @@
+The only things that should need to be changed are in `src` and the file `package.json`. Everything else has to do with Node.js and Electron-Forge.
