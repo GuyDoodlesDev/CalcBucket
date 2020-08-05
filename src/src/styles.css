@@ -12,6 +12,22 @@ body {
     border-radius: 3px;
 }
 
+.button {
+    background-color: #484848;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.button:hover {
+    background-color: #535353;
+}
+
 
 /* The sidebar menu */
 .sidenav {
