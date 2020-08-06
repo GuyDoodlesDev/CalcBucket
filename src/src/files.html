@@ -15,12 +15,12 @@
             fs.mkdir(tmpdir, { recursive: true }, (err) => {
                 if (err) throw err;
             });
-            fs.writeFile(indexcache, 'Dummy index', function (err) {
+            fs.writeFile(indexcache, 'Dummy Index', function (err) {
                 if (err) throw err;
                 console.log('dummy index was created successfully.');
             });
             const file = fs.createWriteStream(indexcache);
-            https.get('http://www.ticalc.org/pub/master.index', response => {
+            https.get('https://www.ticalc.org/pub/master.index', response => {
                 pipeline(
                     response,
                     file,
