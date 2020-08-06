@@ -7,10 +7,14 @@
         const fs = require('fs');
         const homedir = require('os').homedir();
         const prgmdir = homedir+'/.CalcBucket';
-        const indexcache = prgmdir+'/tmp/master.index'
+        const tmpdir = prgmdir+'/tmp';
+        const indexcache = tmpdir+'/master.index'
 
         /* Dowmload index from ticalc.org*/
         function download() {
+            fs.mkdir(tmpdir, { recursive: true }, (err) => {
+                if (err) throw err;
+            });
             fs.writeFile(indexcache, 'Dummy index', function (err) {
                 if (err) throw err;
                 console.log('dummy index was created successfully.');

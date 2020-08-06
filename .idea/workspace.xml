@@ -51,7 +51,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\inmey\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\202.6397.88\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -70,6 +70,7 @@
       <updated>1596649169510</updated>
       <workItem from="1596649170593" duration="2259000" />
       <workItem from="1596651467032" duration="4917000" />
+      <workItem from="1596727074690" duration="159000" />
     </task>
     <servers />
   </component>
