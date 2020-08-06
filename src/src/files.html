@@ -5,14 +5,17 @@
         const http = require('http');
         const { pipeline } = require('stream');
         const fs = require('fs');
+        const homedir = require('os').homedir();
+        const prgmdir = homedir+'/.CalcBucket';
+        const indexcache = prgmdir+'/tmp/master.index'
 
         /* Dowmload index from ticalc.org*/
         function download() {
-            fs.writeFile('C:/Users/%USERNAME%/AppData/Local/CalcBucket/master.index', 'Dummy index', function (err) {
+            fs.writeFile(indexcache, 'Dummy index', function (err) {
                 if (err) throw err;
                 console.log('dummy index was created successfully.');
             });
-            const file = fs.createWriteStream('C:/Users/%USERNAME%/AppData/Local/CalcBucket/master.index');
+            const file = fs.createWriteStream(indexcache);
 
             http.get('http://www.ticalc.org/pub/master.index', response => {
                 pipeline(
