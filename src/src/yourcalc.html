@@ -1,17 +1,32 @@
 <!DOCTYPE html>
-<head>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="sidenav">
-        <a class="current-page">Your Calculator</a>
-        <a href="files.html">Download</a>
-    </div>
 
-    <div class="main">
-        <div class="box">
-        <h1>Stats</h1>
-        <p>Not plugged in.</p>
+<head>
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <script src="common.js"></script>
+</head>
+
+<body>
+    <nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <img class="navbar-img" src="logo-6.svg" width="112" height="28">
         </div>
-    </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    Your Calculator
+                </a>
+
+                <a class="navbar-item">
+                    Download
+                </a>
+            </div>
+            <div class="navbar-end">
+                <button class="button window-button" id="minimize">_</button>
+                <button class="button window-button" id="maximize">&#9633;</button>
+                <button class="button window-button" id="close">x</button>
+            </div>
+        </div>
+    </nav>
 </body>

@@ -1,0 +1,20 @@
+/* This is put after the Bulma CSS, so this file overrides any CSS that is set by Bulma. */
+
+
+.navbar {
+    -webkit-app-region: drag;
+}
+
+.window-button {
+    margin-top: .7rem;
+    margin-right: .1rem;
+    -webkit-app-region: no-drag;
+}
+
+#minimize {
+    margin-left: 2rem;
+}
+
+#close:hover {
+    background-color: #ef2e55;
+}
