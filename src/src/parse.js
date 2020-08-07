@@ -5,6 +5,5 @@ const tmpdir = prgmdir+'/tmp';
 const indexcache = tmpdir+'/master.index'
 
 var index = fs.readFileSync(indexcache).toString();
-index = index.split('\n');
-var index_filtered = index.filter(Boolean);
-console.log(index_filtered);
+index = index.split(/^Index of/g).map(s => s.split('\n'));
+console.log(index);

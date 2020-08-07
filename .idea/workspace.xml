@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0fd018b-b87a-48c3-b3b1-5edc55c50b5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/src/parse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/parse.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +71,16 @@
       <updated>1596731944715</updated>
       <workItem from="1596731946670" duration="1416000" />
       <workItem from="1596747726826" duration="23000" />
-      <workItem from="1596747762989" duration="1337000" />
+      <workItem from="1596747762989" duration="7435000" />
     </task>
+    <task id="LOCAL-00001" summary="add basic parser that converts to a *clean* array">
+      <created>1596749471168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596749471168</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,23 +97,27 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add basic parser that converts to a *clean* array" />
+    <option name="LAST_COMMIT_MESSAGE" value="add basic parser that converts to a *clean* array" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom" timestamp="1596748488933">
+    <state width="934" height="280" key="GridCell.Tab.0.bottom" timestamp="1596750336160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596748488933" />
-    <state width="1897" height="281" key="GridCell.Tab.0.center" timestamp="1596748488932">
+    <state width="934" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596750336160" />
+    <state width="934" height="280" key="GridCell.Tab.0.center" timestamp="1596750336160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596748488932" />
-    <state width="1897" height="281" key="GridCell.Tab.0.left" timestamp="1596748488932">
+    <state width="934" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596750336160" />
+    <state width="934" height="280" key="GridCell.Tab.0.left" timestamp="1596750336160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596748488932" />
-    <state width="1897" height="281" key="GridCell.Tab.0.right" timestamp="1596748488932">
+    <state width="934" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596750336160" />
+    <state width="934" height="280" key="GridCell.Tab.0.right" timestamp="1596750336160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596748488932" />
+    <state width="934" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596750336160" />
     <state x="460" y="163" key="SettingsEditor" timestamp="1596747772859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
