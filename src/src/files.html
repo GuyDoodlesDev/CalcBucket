@@ -1,45 +1,37 @@
 <!DOCTYPE html>
+
 <head>
     <link rel="stylesheet" href="bulma.min.css">
     <link rel="stylesheet" href="custom.css">
-    <script>
-        const http = require('http');
-        const { pipeline } = require('stream');
-        const fs = require('fs');
-
-        /* Dowmload index from ticalc.org*/
-        function download() {
-            fs.writeFile('C:/Users/%USERNAME%/AppData/Local/CalcBucket/master.index', 'Dummy index', function (err) {
-                if (err) throw err;
-                console.log('dummy index was created successfully.');
-            });
-            const file = fs.createWriteStream('C:/Users/%USERNAME%/AppData/Local/CalcBucket/master.index');
-
-            http.get('http://www.ticalc.org/pub/master.index', response => {
-                pipeline(
-                    response,
-                    file,
-                    err => {
-                        if (err)
-                            console.error('Pipeline failed.', err);
-                        else
-                            console.log('Pipeline succeeded.');
-                    }
-                );
-            });
-        }
-    </script>
+    <script src="common.js"></script>
 </head>
-<body>
-<div class="sidenav">
-    <a href="yourcalc.html">Your Calculator</a>
-    <a class="current-page">Downloads</a>
-</div>
 
-<div class="main">
-    <div class="box">
-        <h1>Files to Download</h1>
-        <input class="button" type="button" onClick="download()" value="Download The index to get started!"></input>
+<body>
+    <nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <img class="navbar-img" src="logo.png" width="64">
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="yourcalc.html">
+                    Your Calculator
+                </a>
+
+                <a class="navbar-item is-active" href="files.html">
+                    Download
+                </a>
+            </div>
+            <div class="navbar-end">
+                <button class="button window-button" id="minimize">_</button>
+                <button class="button window-button" id="maximize">&#9633;</button>
+                <button class="button window-button" id="close">x</button>
+            </div>
+        </div>
+    </nav>
+    <div class="contentsBelowHere"></div>
+    <div class="menu">
+        <p class="menu-label">Categories</p>
+        <p class="menu-link is-active">Games</p>
     </div>
-</div>
 </body>

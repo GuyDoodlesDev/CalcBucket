@@ -5,6 +5,11 @@
     -webkit-app-region: drag;
 }
 
+.navbar-img {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
 .window-button {
     margin-top: .7rem;
     margin-right: .1rem;
@@ -17,4 +22,8 @@
 
 #close:hover {
     background-color: #ef2e55;
+}
+
+.contentsBelowHere {
+    margin-bottom: 4.5rem;
 }
